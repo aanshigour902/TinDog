@@ -1,0 +1,200 @@
+body {
+    font-family: 'Montserrat', 'Ubuntu', 'Rubik', sans-serif;
+}
+
+.navbar {
+    font-size: 120%;
+    color: white;
+    padding: 2% 0% 5%;
+    margin-left: 0%;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 18px;
+    color: white;
+    text-align: right;
+}
+
+h1 {
+    /* font-size: 3rem; */
+    font-size: 250%;
+}
+
+.heading1 {
+    padding-top: 5%;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 145%;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #6E85B7;
+    color: white;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 1% 13% 7%;
+}
+
+.download-btn {
+    margin: 5% 3%;
+    font-size: 1.5rem;
+}
+
+.iphoneimg {
+    /* margin-bottom: 0%; */
+    width: 20%;
+    transform: rotate(20deg);
+    position: absolute; 
+    right: 20%;
+} 
+
+#features {
+    /* margin: 10% auto; */
+    padding: 10% 5%;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    position: relative;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+.features-para {
+    color: #798777;
+}
+
+.features-div {
+    padding: 0% 2%;
+}
+
+.pink-icons {
+    margin: 7%;
+    color: #BCCEF8;
+}
+
+.pink-icons:hover {
+    /* color: #FF9494; */
+    color: #6E85B7;
+    /* font-size: 4rem; It would have been fine if they were clickable */
+}
+
+#testimonials, #press {
+    background-color: #6E85B7;
+    padding: 5% 5%;
+    text-align: center;
+    color: white;
+}
+
+/* #press {
+    background-color: #6E85B7;
+    text-align: center;
+    padding: 5% 15%;
+} */
+
+.carousel-heading {
+    font-weight: bolder;
+    padding: 0% 15%; /*Dynamic padding*/
+    font-size: 3rem;
+}
+
+.carousel-img {
+    border-radius: 100%;
+    width: 12%;
+    margin: 3% 5% 0%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 0% 3%;
+}
+
+#pricing {
+    padding: 100px; /*Static padding*/
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+.cards-heading {
+    font-weight: bolder;
+}
+
+/* Media Queries */
+
+@media (max-width: 996px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .heading1 {
+        text-align: center;
+    }
+
+    .iphoneimg {
+        position: static;
+        transform: rotate(0);
+        width: 70%;
+        padding-top: 8%;
+    }
+ 
+}
+
+@media (max-width: 1100px) and (min-width: 996px) {
+    .iphoneimg {
+        width: 25%;
+    }
+}
+
+@media (max-width: 996px) and (min-width: 800px) {
+    .iphoneimg {
+        width: 50%;
+    }
+}
+
+#cta {
+    text-align: center;
+    background-color: #6E85B7;
+    height: 600px;
+    padding: 11% 18% 0%;
+}
+
+.cta-heading {
+    /* padding: 11% 18% 0%; */
+    color: white;
+    font-size: 3.5rem;
+}
+
+#footer {
+    text-align: center;
+    padding: 5%;
+}
+
+.sm-icons {
+    margin: 1%;
+    color: #2B3467;
+    text-decoration: none;
+}
+
+.footer-p {
+    font-size: larger;
+    color: #2B3467
+}
+
+.sm-icons:hover {
+    color: #537FE7;
+}
